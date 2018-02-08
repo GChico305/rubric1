@@ -5,14 +5,14 @@
 
 
 
-<title>Percy's Bar</title>
+<title>Geo's Pets</title>
 </head>
 
 <body>
 <div class="container">
 
 <header>
-  <h1>Geo's Bar</h1>
+  <h1>Geo's Pets</h1>
 
 <link rel="stylesheet" type="text/css" href="percy.css">
 </header>
@@ -27,10 +27,42 @@
 
 
 <section> 
-  <h2>Susan was here </h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
-  <p>Thank you for reading! =)</p>
+  <h2>Pets in my house</h2>
+  
+  
+	<script language="javascript">
+
+var a= 1;
+while ( a<3){
+	alert("You do not have "+ a + " fish!");
+	a++;
+}	
+	
+for( var a= 3; a<5; a++){
+	alert("You have "+ a + " fish!");
+}
+	
+var myFish = ["Memo", " Mimi", " Momo", " Mama"];
+	alert(myFish[1] + " and " + myFish[3] + " are the female fish");	
+	
+	alert(myFish[0] + " and " + myFish[2] + " are the male fish");
+	
+	
+var myPets= {Amount: 8, dogs: 2, cats: 2}
+
+document.write("I have a total of " + myPets.Amount + " pets. ");
+	
+	
+	var myPets=new Array("");
+	myPets[0] = "Fish ";
+	myPets[1] = "Dogs ";
+	myPets[2] = "Cats ";
+	
+	document.write("My favorite pets are my " + myPets[0]+".");
+
+
+</script>	
+	
 </section>
 
 <footer>
@@ -38,22 +70,6 @@
 
 </div>
 </body>
-<script language="javascript">
 
-alert("WAIT! Before you view this page!");
-
-var userAge = prompt("How old are you?");
-alert (userAge);
-
-if(userAge<21) {
-	alert("You are too young to drink!");	
-}else {
-	alert("You are old enough to drink!");
-	}
-var userAge = userAge/1;
-var userAge = userAge + 10;
-alert("You will stop drinking when you turn "+ userAge);
-
-</script>	
 	
 </html>
